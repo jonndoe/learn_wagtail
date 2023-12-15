@@ -71,6 +71,19 @@ DJANGO_APPS = [
     "django.forms",
 ]
 THIRD_PARTY_APPS = [
+    "wagtail.contrib.forms",
+    "wagtail.contrib.redirects",
+    "wagtail.embeds",
+    "wagtail.sites",
+    "wagtail.users",
+    "wagtail.snippets",
+    "wagtail.documents",
+    "wagtail.images",
+    "wagtail.search",
+    "wagtail.admin",
+    "wagtail",
+    "modelcluster",
+    "taggit",
     "crispy_forms",
     "crispy_bootstrap5",
     "allauth",
@@ -138,6 +151,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "allauth.account.middleware.AccountMiddleware",
+    "wagtail.contrib.redirects.middleware.RedirectMiddleware",
 ]
 
 # STATIC
@@ -324,3 +338,5 @@ WEBPACK_LOADER = {
 }
 # Your stuff...
 # ------------------------------------------------------------------------------
+WAGTAIL_SITE_NAME = "Learn Wagtail"
+WAGTAILADMIN_BASE_URL = "http://example.com"
