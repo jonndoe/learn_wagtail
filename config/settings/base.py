@@ -96,6 +96,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "learn_wagtail.users",
     "learn_wagtail.mysite",
+    "learn_wagtail.blog",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
