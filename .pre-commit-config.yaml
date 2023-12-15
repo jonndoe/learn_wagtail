@@ -60,7 +60,7 @@ repos:
     hooks:
       - id: djlint-reformat-django
       - id: djlint-django
-        args: ['--ignore=H021']
+        args: ['--ignore=H021'] # avoid inline styles
 
 # sets up .pre-commit-ci.yaml to ensure pre-commit dependencies stay up to date
 ci:
