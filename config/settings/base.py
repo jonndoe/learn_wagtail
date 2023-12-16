@@ -97,6 +97,7 @@ LOCAL_APPS = [
     "learn_wagtail.users",
     "learn_wagtail.mysite",
     "learn_wagtail.blog",
+    "learn_wagtail.wagtailcalendar",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
@@ -239,7 +240,7 @@ EMAIL_TIMEOUT = 5
 # ADMIN
 # ------------------------------------------------------------------------------
 # Django Admin URL.
-ADMIN_URL = "admin/"
+ADMIN_URL = "django-admin/"
 # https://docs.djangoproject.com/en/dev/ref/settings/#admins
 ADMINS = [("""Vasily Lukichev""", "vasily-lukichev@example.com")]
 # https://docs.djangoproject.com/en/dev/ref/settings/#managers

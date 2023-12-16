@@ -17,7 +17,7 @@ urlpatterns = [
     path("users/", include("learn_wagtail.users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
     # Your stuff: custom urls includes go here
-    path("cms/", include(wagtailadmin_urls)),
+    path("wagtail-admin/", include(wagtailadmin_urls)),
     path("documents/", include(wagtaildocs_urls)),
     path("pages/", include(wagtail_urls)),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
