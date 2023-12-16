@@ -98,6 +98,7 @@ LOCAL_APPS = [
     "learn_wagtail.mysite",
     "learn_wagtail.blog",
     "learn_wagtail.wagtailcalendar",
+    "learn_wagtail.jobs",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
